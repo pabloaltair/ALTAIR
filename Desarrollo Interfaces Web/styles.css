@@ -3,7 +3,7 @@
     text-align: center;
     background-color: #7fe4ac; /* Ajustar el color según la imagen */
     padding: 50px;
-    background-image: url('fondobanner.jpg');
+    background-image: url('image.png');
     background-size: cover;
     
     
@@ -11,14 +11,14 @@
 
 h1 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 36px;
-    color: #333;
+    font-size: 40px;
+    color: #000000;
 }
 
 p {
     font-family: 'Roboto', sans-serif; 
     font-size: 18px;
-    color: #333;
+    color: #000000;
     margin: 20px 0;
 }
 
