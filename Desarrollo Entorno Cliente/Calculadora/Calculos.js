@@ -1,12 +1,13 @@
 function calcular() {
     // Obtener los valores de los inputs
-    const num1 = parseFloat(document.getElementById('n1').value);
-    const num2 = parseFloat(document.getElementById('n2').value);
-    const operacion = document.getElementById('operacion').value;
+    var num1 = parseFloat(document.getElementById('n1').value);
+    var operador = document.getElementById('operador').value;
+    var num2 = parseFloat(document.getElementById('n2').value);
 
     // Realizar la operación
     let resultado;
-    switch (operacion) {
+    //Segun la opcion seleccionado del menu desplegable, hace su operacion asignada
+    switch (operador) {
         case '+':
             resultado = num1 + num2;
             break;
